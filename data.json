@@ -1,0 +1,83 @@
+{
+  "0": {
+    "text": "Welcome to the Neuro-Cognitive Simulator.\nAre you ready to map your decision-making style?",
+    "btn1": "Begin Simulation",
+    "next1": "1"
+  },
+  "1": {
+    "text": "CONCEPT: Uncertainty Management\nYou are in a new city. Do you stick to a strict \nGPS route (A) or wander to see what you find (B)?",
+    "btn1": "GPS Route",
+    "btn2": "Wander",
+    "next1": "2",
+    "next2": "3"
+  },
+  "2": {
+    "text": "CONCEPT: Prediction Error\nThe GPS leads to a dead end. Do you wait for a \nrecalc (A) or immediately try a manual detour (B)?",
+    "btn1": "Wait for Recalc",
+    "btn2": "Manual Detour",
+    "next1": "16",
+    "next2": "14"
+  },
+  "16": {
+    "text": "CONCEPT: Model Reliability\nThe GPS is still loading. Do you continue to \ntrust the system (A) or give up and ask a local \nfor a landmark (B)?",
+    "btn1": "Trust System",
+    "btn2": "Ask Local",
+    "next1": "4",
+    "next2": "13"
+  },
+  "3": {
+    "text": "CONCEPT: Social Exploitation\nYou see a crowd at a local venue. Do you go inside \nbecause it is clearly popular (A) or keep looking \nfor a hidden spot no one has found yet (B)?",
+    "btn1": "Go Inside",
+    "btn2": "Keep Looking",
+    "next1": "15",
+    "next2": "12"
+  },
+  "15": {
+    "text": "CONCEPT: Reward Validation\nInside, the music is loud but the food smells great. \nDo you stay because the reward is guaranteed (A) \nor leave to find a quieter, unknown option (B)?",
+    "btn1": "Stay (Exploit)",
+    "btn2": "Leave (Explore)",
+    "next1": "6",
+    "next2": "7"
+  },
+  "12": {
+    "text": "CONCEPT: Information Search\nWhile wandering, do you stay to watch a street \nperformer (A) or look for a quiet map of the area (B)?",
+    "btn1": "Watch Show",
+    "btn2": "Find Map",
+    "next1": "6",
+    "next2": "11"
+  },
+  "13": {
+    "text": "CONCEPT: Internal vs. External Cues\nYou feel lost. Do you look for a physical landmark \n(A) or use previous knowledge of the city layout (B)?",
+    "btn1": "Look for Landmark",
+    "btn2": "Use Previous Knowledge",
+    "next1": "9",
+    "next2": "8"
+  },
+  "4": {
+    "text": "CONCEPT: Model-Based Learning\nWhen learning a new hobby, do you read the full \nmanual (A) or learn by making mistakes (B)?",
+    "btn1": "Read Manual",
+    "btn2": "Learn by Doing",
+    "next1": "8",
+    "next2": "9"
+  },
+  "14": {
+    "text": "CONCEPT: Resource Allocation\nYour detour is taking longer than expected. Do you \nstop for a break (A) or push through to the end (B)?",
+    "btn1": "Take Break",
+    "btn2": "Push Through",
+    "next1": "10",
+    "next2": "5"
+  },
+  "5": {
+    "text": "CONCEPT: Sensory Hierarchy\nWhen looking at a painting, do you see the \noverall mood (A) or the tiny brushstrokes (B)?",
+    "btn1": "Overall Mood",
+    "btn2": "Brushstrokes",
+    "next1": "10",
+    "next2": "11"
+  },
+  "6": { "text": "RESULT: The 'Exploiter' Strategy", "isResult": true, "description": "You prioritize 'Social Exploitation'—using established signals to guarantee a reward. Daily Example: Checking reviews before trying a new place." },
+  "7": { "text": "RESULT: The Pure Explorer", "isResult": true, "description": "You prioritize 'Information Gain'—seeking new data even if it risks a bad experience. Daily Example: Buying a mystery-flavored snack just to try it." },
+  "8": { "text": "RESULT: Top-Down Processor", "isResult": true, "description": "You rely on internal frameworks (Previous Knowledge) to minimize uncertainty. Daily Example: Using a recipe as a guide but trusting your 'gut' on seasoning." },
+  "9": { "text": "RESULT: Bottom-Up Learner", "isResult": true, "description": "You build understanding from raw sensory data and direct experience. Daily Example: Assembling furniture without looking at the instructions." },
+  "10": { "text": "RESULT: Global Perceiver", "isResult": true, "description": "Your brain prioritizes high-level perceptual hierarchies, focusing on 'The Big Picture'. Daily Example: Recognizing a song by its beat before the lyrics start." },
+  "11": { "text": "RESULT: Detail-Oriented Perceiver", "isResult": true, "description": "You focus on 'mechanistic fidelity'—the fine details of how things work. Daily Example: Noticing a specific font used on a website." }
+}
