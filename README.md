@@ -10,5 +10,5 @@ This project simulates human decision-making based on the **Predictive Coding** 
 * **Mechanistic Fidelity:** Decisions are mapped to ensure behavioral outcomes align with theoretical cognitive models.
 
 ## Technical Stack
-* **Language:** JavaScript (p5.js)
+* **Language:** JavaScript
 * **Architecture:** Data-driven State Machine (JSON-decoupled logic)
